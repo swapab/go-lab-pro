@@ -22,3 +22,4 @@ Each folder is a small, self-contained project exploring a Go concept.
 - Commit often with small, meaningful messages
 - Use `NOTES.md` in each folder to summarize what was learned
 - Compare Go 1.23 vs 1.24 once basics are done
+- Revisit older code when upgrading to Go 1.24 to see what changed

@@ -35,7 +35,7 @@ func main() {
 	fmt.Println("Go Version:", runtime.Version())
 	fmt.Println("OS/Arch:", runtime.GOOS, runtime.GOARCH)
 	fmt.Println("NumCPU:", runtime.NumCPU())
-	fmt.Println("Current Time:", time.Now())
+	fmt.Println("Current Time:", time.Now().Format(time.RFC1123))
 }
 
 ```
