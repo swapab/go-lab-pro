@@ -1,0 +1,38 @@
+# Compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace build cache
+*.log
+bin/
+build/
+dist/
+
+# Dependency directories
+vendor/
+
+# IDE / Editor settings
+.idea/
+.vscode/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+*.local
+
+# Test coverage / temporary
+*.coverprofile
+*.tmp
+*.bak
+
+# Generated code (optional)
+*.pb.go
