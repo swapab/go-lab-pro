@@ -2,8 +2,6 @@ package main
 
 import "fmt"
 
-const pi = 3.14159
-
 func add(a, b int) int {
 	return a + b
 }
